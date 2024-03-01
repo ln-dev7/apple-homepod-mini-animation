@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue");
+
+:root {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #86868b;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-gradiant {
+  background: linear-gradient(
+    0deg,
+    #ffa745 0%,
+    #fe869f 30%,
+    #ef7ac8 45%,
+    #a083ed 70%,
+    #43aeff 85%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  font-size: 114.609px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135px;
+  letter-spacing: -2.16px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 72.988px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: -1.383px;
+}
+
+.white-gradiant {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 76.5%);
+  filter: blur(6.849999904632568px);
+}
+
+#app {
+  overflow: hidden;
+}
