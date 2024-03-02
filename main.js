@@ -142,4 +142,7 @@ continueBtn.addEventListener("click", () => {
       duration: 1,
     });
   }
+  if (count === 8) {
+    window.location.reload();
+  }
 });
